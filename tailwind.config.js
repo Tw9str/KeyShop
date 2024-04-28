@@ -11,6 +11,13 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "body-bg": "url('/hero-background.svg')",
+      },
+      screens: {
+        xs: "384px",
+      },
+      animation: {
+        "spin-slow": "spin 10s linear infinite",
       },
     },
   },
