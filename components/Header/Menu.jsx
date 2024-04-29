@@ -27,7 +27,7 @@ export default function Menu() {
       <div
         className={`${
           HideMenu ? "hidden " : ""
-        }absolute end-0 top-11 z-10 bg-gray-900/5 border border-white/5 backdrop-blur-3xl divide-y rounded-lg shadow w-44 divide-white/5`}
+        }absolute end-0 top-11 z-10 bg-gray-900 border border-white/5 backdrop-blur-3xl divide-y rounded-lg shadow w-44 divide-white/5`}
       >
         <div className="px-4 py-3 text-sm text-white hover:text-pink-500">
           <div>name</div>
